@@ -1,0 +1,20 @@
+{
+  "testCaseNumber": 1,
+  "description": "Valid token is provided",
+  "event": {
+    "headers": {
+      "authorization": "YTUzODhlYWYzNmNjMjAwYjViYWYyYjNiZWUyOGEzMzdkOTQ3NDUxYWQ1YWY2YjM3MGI0MjM1YTA1MWVlOWRlZTRhZDhjMDBjMWVkZjY0NjRkZjIwNDVlNTZhZWYzM2EyNzgxZjEzYzg2OTY5NzY3ZjAyZWI2MWE1MDYwZTk0YmI0YjFiNDcwMDFjNjg1YjVlMmM4ZWY5YjU2OGE5MDg5NmQ1NzNlZWY3MmY4M2UwZDMyMGI3ZTFkOTkzYjYyNmNjMmU3MWYwMWRmYWQxYmEwNDUyZmI1ZmJmZjg3ZTdhYThhMjljNjVkZGQ5MDJmZWFhMjAxNThhNTRkNzQ3NmViNWRlYmRmMGI4ZDIyOGI0NmM4OTdhYmNjZjdjMGFjNTljZjQ0YzQ5YjQ5ZGJjMWM1MGMxNzcxYzFjZjA5Y2YxOTE2ZWY5NjJkOGNkYjkzYzk1MTFjOWZjNzYzN2YwYmU5NmZhZWU0MjIxMGFhNzVhNGZkOGIzMDEwZDFkNjI1ZjEyOWE4NTQ0MzM4NWZhMmNhMDM1NDVlNDllNWViNmVmOGQ0ZDM2M2NjZmJkZjY2MGQ4ODkzOTFkMGMxMjFiOGMzZA==",
+      "domain": "www.talksite12.ai",
+      "X-Forwarded-Proto": "https",
+      "Host": "og7v4azege.execute-api.ap-southeast-2.amazonaws.com"
+    },
+    "requestContext": {
+      "resourcePath": "/api/products/{productName}",
+      "httpMethod": "GET"
+    }
+  },
+  "test": {
+    "statusCode": 200,
+    "responseCode": 200000
+  }
+}

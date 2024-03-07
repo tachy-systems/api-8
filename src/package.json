@@ -1,0 +1,30 @@
+{
+  "name": "mfc-init",
+  "version": "1.0.0",
+  "description": "Microfrontend components list api",
+  "main": "index.js",
+  "scripts": {
+    "unit-test": "mocha ../unitTesting/index.js --timeout 100000 --reporter mochawesome --reporter-options reportFilename=unitTesting ",
+    "api-test": "mocha ../apiTesting/index.js --timeout 100000 --reporter mochawesome --reporter-options reportFilename=apiTesting --delay",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mfe",
+    "list"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "aws-sdk": "^2.1057.0",
+    "chai": "^4.3.4",
+    "lambda-tester": "^4.0.1",
+    "mocha": "^9.1.3",
+    "mochawesome": "^7.1.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.245.0",
+    "@aws-sdk/lib-dynamodb": "^3.464.0",
+    "aws-xray-sdk-core": "^3.4.1"
+  }
+}
